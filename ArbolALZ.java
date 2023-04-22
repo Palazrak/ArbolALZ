@@ -141,7 +141,7 @@ public class ArbolALZ<T extends Comparable<T>> {
     
     //Método que calcula la altura del arbol completo
     public int alturaArbol(){
-        return alturaArbol(this.raiz);
+        return alturaArbol(this.getRaiz());
     }
     
     private int alturaArbol(NodoALZ<T> actual) {
